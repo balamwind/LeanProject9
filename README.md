@@ -16,13 +16,12 @@
 
 ![image](https://github.com/user-attachments/assets/93199057-c80a-4de3-bdf3-a6d63aa06f17)
 
-아래처럼 정답이 전해지면 Strike와 Ball을 판단해 정답인지 아닌지 판단 후<br>
-정답이라면 각 플레이어에게 Win과 Lose가 전해지고 게임이 종료된다.<br>
-정답이 아닐 시 턴이 남아있다면 다음 플레이어의 턴이 되고, 턴이 없다면 게임이 종료된다.
+아래처럼 정답이 전해지면 Strike와 Ball을 판단해 정답인지 아닌지 판단 후, 정답이라면 각 플레이어에게 Win과 Lose가 전해지고 게임이 종료됩니다.<br>
+정답이 아닐 시 턴이 남아있다면 다음 플레이어의 턴이 되고, 턴이 없다면 게임이 종료됩니다.
 
 ![image](https://github.com/user-attachments/assets/88bd2eec-2378-441f-8090-f6ba0214c9e4)
 
-아래와 같이 ACPlayerController에 결과가 전달된다.
+아래와 같이 ACPlayerController에 결과가 전달됩니다.
 
 ![image](https://github.com/user-attachments/assets/e5814094-9bed-46a9-8283-99e5b245df21)
 
@@ -30,8 +29,8 @@
 
 ![image](https://github.com/user-attachments/assets/67c1cf66-7f10-4cd3-a5d4-6d3653650cc1)
 
-턴이 시작 된다면 타이머가 실행되어 화면에 자연스럽게 보이게 된다. <br>
-단, 타이머가 모두 지났을 때, 턴 플레이어를 OUT 처리로 하는 것은 서버에서만 실행된다.
+턴이 시작 된다면 타이머가 실행되어 화면에 자연스럽게 보이게 됩니다. <br>
+단, 타이머가 모두 지났을 때, 턴 플레이어를 OUT 처리로 하는 것은 서버에서만 실행됩니다.
 
 ![image](https://github.com/user-attachments/assets/6c102742-89ac-4cab-b319-5a058a83b06c)
 
