@@ -34,7 +34,7 @@ void ACGameMode::InputTurnPlayerAnswer(const FString& Answer)
 				Ball++;
 		}
 	}
-
+	
 	ProblemInputCount--;
 	if (Answer == "OUT")
 		NowTurnPlayer->ClientPrintResult(0, 0, INDEX_NONE);
@@ -133,7 +133,7 @@ void ACGameMode::Draw()
 
 void ACGameMode::Win(ACPlayerController* Winner)
 {
-	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, "Win");
+	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, TEXT("게임이 끝났습니다."));
 
 	TArray<AActor*> Controllers;
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), ACPlayerController::StaticClass(), Controllers);
